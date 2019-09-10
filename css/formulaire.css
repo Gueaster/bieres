@@ -38,7 +38,6 @@ input, textarea {
     font: 1em sans-serif;
     width: 400px;
     box-sizing: border-box;
-
 }
 
 input:focus, textarea:focus {
