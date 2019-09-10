@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Remplir le formulaire</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="./css/formulaire.css">
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+    </head>
+    
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a  href="presentation.html">
+                        <img src="img/logo_mdb.png"  alt="logo_entree" width="100px" height="100px">
+                    </a>
+                </li>
+                <li><a href="histoire.html">Histoire</a></li>
+                <li><a href="developpement.html">Developpement</a></li>
+                <li><a href="site_formulaire.html">Inscription</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <body>
+        <div id=return>
+            
+            <h1>Demande de devis</h1>
+
+            <form method="post">
+                
+                
+                <label for="nom">Nom:</label>
+                <input type="text" name="nom" id="nom" placeholder="Votre nom" autofocus>
+                <br>
+                <br>
+                
+                <label for="prenom">Prénom:</label>
+                <input type="text" name="prenom" id="prenom" placeholder="Votre prénom">
+                <br>
+                <br>
+
+                <label for="homme">Homme</label>
+                <input type="radio" name="genre" id="male" value="homme" required>
+                <br>
+                <label for="Femme">Femme</label>
+                <input type="radio" name="genre" id="femme" value="femme">
+                <br>
+                <br>
+                
+                <label for="age">Age:</label>
+                <input type="number" name="age" id="age" min="18" max="99" step="1">
+                <br>
+                <br>
+                
+                <label for="email">Email:</label>
+                <input type="text" name="user_email" id="email" placeholder="Votre email">
+                <br>
+                <br>
+                
+                <select  name="birthPlace" id="birthPlace">
+                    <optgroup label="Pays de la Loire">
+                        <option value="44">Loire Atlantique</option>
+                        <option value="85">Vendée</option>
+                        <option value="49">Maine et Loire</option>
+                    </optgroup>
+                </select>
+                <br>
+                <br>
+                
+                <label for="adresse">Adresse Postale:</label>
+                <input type="text" name="adresse" id="email" placeholder="Votre adresse postale">
+                <br>
+                <br>
+                
+                <div>
+                    <p>Merci de préciser les produits désirés et les quantités</p>
+                    <container>
+                    <label for="msg"></label>
+                    <textarea id="msg" name="message" cols="30" rows="10" input type="text" placeholder="Taper ici votre mesasge"></textarea>
+                    </container>
+                </div>
+                <br>    
+                <br>   
+                
+                <div class="button">
+                    <button type="submit">Envoyer le formulaire</button>
+                </div>
+                
+            </form>
+        </div>
+        </section>
+    </body>
