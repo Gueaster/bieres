@@ -1,5 +1,4 @@
 body {
-    background-color: burlywood;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -7,9 +6,9 @@ body {
 }
 
 div {
-    flex-flow: column;
-    justify-content: center;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 h1 {
@@ -17,12 +16,13 @@ h1 {
 }
 
 form {
-    justify-content: center;
-    margin: 500 auto;
+    display :flex;
+    flex-direction: column;
+    margin: auto;
     width: 600px;
     padding: 1em;
-    border: 1px solid #CCCCCC;
-    border-radius: 30px;
+    border: 1px solid rgb(108, 108, 110);
+    border-radius: 25px;
 }
 
 form + div {
@@ -30,36 +30,34 @@ form + div {
 }
 
 label {
-    display: inline-block;
+    padding: 0.5em;
     width: 90px;
-
 }
 
 input, textarea {
     font: 1em sans-serif;
-    width: 400px;
+    width: 600px;
     box-sizing: border-box;
     border-radius: 10px;
+    padding: 0.5em;
 }
 
 input:focus, textarea:focus {
     border-color: #000;
 }
   
-  textarea {
+textarea {
     height: 5em;
 }
 
-#age, #nom #prenom #email #adresse{
-    height: 34px;
+.button {
+    padding-left: 70px;
+    padding: 0.5em;
+    align-items: center;
 }
   
-  .button {
-    padding-left: 90px;
-}
-  
-  button {
-    margin-left: .5em;
+button {
+    padding: 0.5em;
     width: 400px;
     box-sizing: border-box; 
     border-radius: 10px;
@@ -67,5 +65,6 @@ input:focus, textarea:focus {
 
 select {
     border-radius: 10px;
+    padding: 0.5em;
+    margin:center;
 }
-
