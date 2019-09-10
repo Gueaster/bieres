@@ -35,17 +35,3 @@ h1 {
   text-align: center;
 }
 
-p {
- 
- font-size: 25px;
- margin: 0px;
- background-position: right 100px;
-}
-
-div {
-  float: right;
-  align-content: center;
-}
-figcaption {
-  margin-left: 150px
-}
