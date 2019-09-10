@@ -2,6 +2,11 @@ body {
     background-color: burlywood;
 }
 
-img .center {
-
+div {
+    display: flex;
+    justify-content: center;
 }
+img {
+    height: 1000px;
+    width: 1000px;
+}   
