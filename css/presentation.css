@@ -1,10 +1,24 @@
-p {
-    font-size: 15px;
-    margin: 0px;
-    background-position: right 100px;
-  }
-  
-div {
-    float: right;
-    align-content: center;
-  }
+
+.firstpart{
+   width: 1000px; 
+   display: flex;
+   flex-direction: row;
+ }
+ .paragraphe{
+ 
+  font-size: 15px;
+  margin: 0px;
+ }
+
+ .secondpart {
+   display: flex;
+   flex-direction: row;
+ }
+ .paragrapheb{
+  font-size: 15px;
+  margin: 0px;
+ }
+ 
+
+
+
