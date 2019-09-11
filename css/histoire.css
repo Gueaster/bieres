@@ -1,9 +1,21 @@
 .egypte {
     float: left;
+    display: flex;
+    max-width: 49%;
 }
 
 .paragraphe {
-    text-align: justify;
+    
     font-size: 13px;
-    margin-right: 1em;
+    margin-left: 0em;
+}
+
+.contenu {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+@media screen and (max-width: 2000px) and (min-width: 500px) {
+  
 }
