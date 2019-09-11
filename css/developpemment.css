@@ -7,16 +7,14 @@ table{
     border-width: 6px;
     justify-content: center;
     align-items: center;
+    }
     
-  }
-    
-}
 td, th{
     display: flex;
     border: 3px solid black;
     justify-items: center;
     border-color: black;
-}
+    }
 
 caption {
     background-color: black;
