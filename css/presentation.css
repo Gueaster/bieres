@@ -3,35 +3,38 @@
    width: 1000px; 
    display: flex;
    flex-direction: row;
- }
- .paragraphe{
+}
+
+.paragraphe{
  
   font-size: 15px;
   margin: 1em;
- }
+}
 
- .secondpart {
+.secondpart {
    display: flex;
    flex-direction: row;
- }
- .paragrapheb{
+}
+
+.paragrapheb{
   font-size: 15px;
   margin: 1em;
- }
+}
 
- footer {
+footer {
    background-color: sienna;
+   height: 20%;
 
- }
- 
- h3 {
-   text-align: center;
- }
+}
 
- .partenaire {
+h3 {  
+  text-align: center;
+}
+
+
+div .partenaire {
   display: flex;
- }
- 
-
+  justify-content: space-around;
+}
 
 
