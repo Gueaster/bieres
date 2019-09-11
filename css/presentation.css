@@ -7,7 +7,7 @@
  .paragraphe{
  
   font-size: 15px;
-  margin: 0px;
+  margin: 1em;
  }
 
  .secondpart {
@@ -16,7 +16,20 @@
  }
  .paragrapheb{
   font-size: 15px;
-  margin: 0px;
+  margin: 1em;
+ }
+
+ footer {
+   background-color: sienna;
+
+ }
+ 
+ h3 {
+   text-align: center;
+ }
+
+ .partenaire {
+  display: flex;
  }
  
 
