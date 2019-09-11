@@ -1,0 +1,35 @@
+table{
+    width: 800px;
+    height: 800px;
+    display: inline-table;
+    margin-left: 13em;
+    border: dashed 6px;
+    border-width: 6px;
+    justify-content: center;
+    align-items: center;
+    
+  }
+    
+}
+td, th{
+    display: flex;
+    border: 3px solid black;
+    justify-items: center;
+    border-color: black;
+}
+
+caption {
+    background-color: black;
+    color: aquamarine;
+    
+}
+tr {
+    text-align: center;    
+    border-color: black
+}
+tbody {
+    border-color: black
+}
+.noir {
+    border-right-color: black
+}
