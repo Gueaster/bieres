@@ -4,5 +4,6 @@
 
 .paragraphe {
     text-align: justify;
-    font-size: 13px
+    font-size: 13px;
+    margin-right: 1em;
 }
