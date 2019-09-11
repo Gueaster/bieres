@@ -1,0 +1,26 @@
+table {
+    width: 800px;
+    height: 800px;
+    display: inline-table;
+    margin-left: 33em;
+    border-width: 6px;
+    }
+    
+td, th {
+    border: 3px solid black;
+    justify-items: center;
+    border-color: black;
+    }
+
+caption {
+    background-color: black;
+    color: aquamarine;
+    
+}
+tr {
+    text-align: center;    
+    border-color: black
+}
+tbody {
+    border-color: black
+}
