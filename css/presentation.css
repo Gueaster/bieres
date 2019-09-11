@@ -21,20 +21,3 @@
   margin: 1em;
 }
 
-footer {
-   background-color: sienna;
-   height: 20%;
-
-}
-
-h3 {  
-  text-align: center;
-}
-
-
-div .partenaire {
-  display: flex;
-  justify-content: space-around;
-}
-
-
