@@ -43,7 +43,8 @@ h1 {
 footer {
   background-color: sienna;
   height: 20%;
-
+  margin: inherit;
+  border-radius: 1em;
 }
 
 h3 {  

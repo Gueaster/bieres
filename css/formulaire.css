@@ -5,8 +5,6 @@ body {
 }
 
 div {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
 }
 
@@ -15,7 +13,7 @@ h1 {
 }
 
 form {
-    display :flex;
+    display: flex;
     flex-direction: column;
     margin: auto;
     width: 600px;
@@ -24,19 +22,18 @@ form {
     border-radius: 25px;
 }
 
-form + div {
+form + label {
     margin-top: 1em;
 }
 
 label {
     padding: 0.5em;
     width: 90px;
+    
 }
 
-input, textarea {
+input, textarea, select {
     font: 1em sans-serif;
-    width: 600px;
-    box-sizing: border-box;
     border-radius: 10px;
     padding: 0.5em;
 }
@@ -52,7 +49,8 @@ textarea {
 .button {
     padding-left: 70px;
     padding: 0.5em;
-    align-items: center;
+
+
 }
   
 button {
@@ -65,5 +63,7 @@ button {
 select {
     border-radius: 10px;
     padding: 0.5em;
-    margin:center;
+}
+#male, #femme {
+    display: inline;
 }
