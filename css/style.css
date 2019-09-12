@@ -52,7 +52,7 @@ h3 {
 }
 
 
-div .partenaire {
+ .partenaire {
  display: flex;
  justify-content: space-around;
 }
