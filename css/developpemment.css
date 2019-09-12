@@ -6,6 +6,7 @@
 table {
     width: 800px;
     height: 800px;
+    background-color: moccasin ;
     }
     
 td, th {
@@ -17,7 +18,7 @@ td, th {
 
 caption {
     background-color: black;
-    color: aquamarine;
+    color: white;
     
     
 }
