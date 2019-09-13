@@ -20,5 +20,15 @@
 .paragrapheb{
   font-size: 1.4em;
   margin: 1em;
+  display: flex;
 }
 
+@media screen and (max-width: 1000px) {
+  div.firstpart { 
+    flex-direction: column;
+    }
+  div.secondpart {
+    flex-direction: column;
+  } 
+
+}
