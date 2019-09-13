@@ -10,7 +10,7 @@
 }
 
 .contenu {
-    display: flex;
+
     flex-wrap: wrap;
 }
 
@@ -19,20 +19,6 @@ p {
 }
 .image_gauche {
     margin: 1em 1em 1em 0em;
-}
-
-.image_moyenne_1 {
-    margin: 1em 1em 1em 1em;
-    max-width: 77%;
-}
-
-.image_moyenne_2 {
-    margin: 1em 1em 1em 0em;
-}
-
-.image_moyenne_3 {
-    margin: 1em 1em 1em 1em;
-    
 }
 
 @media screen and (max-width: 2000px) and (min-width: 500px) {
